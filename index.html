@@ -12,5 +12,5 @@
     <div class="container"> <button id="matrixbutton"></button> </div>
     <script src="script.js"></script>
 </body>
-
+<?php if (isset($_POST['matrixbutton'])) { if (!isset($_SESSION['count'])) { $_SESSION['count'] = 1; echo "<script>alert('hello');</script>"; } else if ($_SESSION['count'] == 1) { $_SESSION['count'] = 2; echo "<script>alert('broooo');</script>"; } } ?>
 </html>
