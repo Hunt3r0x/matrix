@@ -9,7 +9,7 @@ document.getElementById('matrixbutton').addEventListener('click', function () {
     } else if (count == 3) {
         alert('click this link:');
     } else if (count == 6) {
-        let videoLink = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        let videoLink = "https://media.tenor.com/GGsqDwbU9RgAAAAd/hd-rickroll.gif";
         let popup = window.open(videoLink, "popup", "width=800,height=600");
         setTimeout(function () { popup.close(); }, 100000);
         count = 0;
