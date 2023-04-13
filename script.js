@@ -5,7 +5,7 @@ document.getElementById('matrixbutton').addEventListener('click', function () {
     if (count == 1) {
         alert('hello friend');
     } else if (count == 2) {
-        alert('mmmmmm, you are looking for something');
+        alert('hmmm, you are looking for something');
     } else if (count == 3) {
         alert('click this link :');
     }
